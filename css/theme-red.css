@@ -4219,11 +4219,11 @@ pre {
 }
 /*! -- Stack Links -- */
 a {
-  color: #4A4A4A;
+  color: #34E3AB;
   font-weight: 700;
 }
 a:hover {
-  color: #ff1c1c;
+  color: #30cd9b;
   text-decoration: underline;
 }
 a.block {
