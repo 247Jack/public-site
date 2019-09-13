@@ -140,6 +140,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .container-large {
@@ -152,6 +153,7 @@ img {
 
 .section2 {
   padding: 20px 0;
+  height: auto;
 }
 
 @media (max-width: 991px){
@@ -205,6 +207,7 @@ img {
 
 .effect-section {
   position: relative;
+  height: auto;
 }
 .effect-bottom {
   position: absolute;
