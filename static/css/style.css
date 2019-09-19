@@ -140,7 +140,6 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
 }
 
 .container-large {
@@ -153,7 +152,6 @@ img {
 
 .section2 {
   padding: 20px 0;
-  height: auto;
 }
 
 @media (max-width: 991px){
@@ -207,7 +205,6 @@ img {
 
 .effect-section {
   position: relative;
-  height: auto;
 }
 .effect-bottom {
   position: absolute;
@@ -3759,6 +3756,7 @@ blockquote.blockquote-left .parson {
 .p-90px-tb {padding-top: 90px; padding-bottom: 90px }
 .p-95px-tb {padding-top: 95px; padding-bottom: 95px }
 .p-100px-tb {padding-top: 100px; padding-bottom: 100px }
+.p-200px-tb {padding-top: 200px; padding-bottom: 200px }
 
 
 /*Padding top*/
