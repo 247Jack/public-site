@@ -1,0 +1,83 @@
+/*======================
+10. Service Style CSS
+========================*/
+
+.service {
+  &-business-classic {
+    margin-top: -80px;
+
+    @media #{$md-device, $sm-device} {
+      margin-top: -30px;
+    }
+
+    .icon-box-item {
+      @media #{$xl-device, $lg-device} {
+        margin-top: 80px;
+      }
+    }
+  }
+
+  // Home Graphics Design
+  &-area-gd {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 7% 50%;
+  }
+
+  &-content-gd {
+    .list-box {
+      &__info {
+        h6 {
+          @include font-size(16px);
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  // Home Left Multipurpose
+
+  &-item {
+    &__txt {
+      margin-top: 35px;
+
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+
+// Service Page 2 Service Style
+.service-2-content-wrap {
+  margin-top: -75px;
+
+  @media #{$md-device} {
+    margin-top: -55px;
+  }
+
+  @media #{$sm-device} {
+    margin-top: -35px;
+  }
+
+  .icon-box-item {
+    margin-top: 75px;
+
+    @media #{$md-device} {
+      margin-top: 55px;
+    }
+
+    @media #{$sm-device} {
+      margin-top: 35px;
+    }
+  }
+}
+
+.architecture-service-wrap {
+  .list-box-item {
+    @media #{$lg-device} {
+      margin-top: 45px;
+    }
+  }
+}
