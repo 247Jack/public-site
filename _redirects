@@ -1,0 +1,2 @@
+# Redirect /voice_tour to voicetour.ai
+/voice_tour         https://voicetour.ai              301
