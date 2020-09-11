@@ -1,2 +1,3 @@
-# Redirect /voice_tour to voicetour.ai
+# Redirect /voice_tour and /voice_tour_renters to voicetour.ai
 /voice_tour         https://voicetour.ai              301
+/voice_tour_renters https://voicetour.ai              301
